@@ -7,15 +7,16 @@ SentimentSense is a simple sentiment analysis project that classifies text as po
 SentimentSense/
 │
 ├── model_training/
-│ ├── train_model.ipynb # Google Colab notebook to train and save the model
-│ └── sentiment_model.pkl # Trained model file (generated after training)
+│   ├── train_model.ipynb
+│   └── sentiment_model.pkl
 │
 ├── app/
-│ ├── app.py # Streamlit frontend app
-│ ├── sentiment_model.pkl # Copy of the trained model to load in the app
-│ └── requirements.txt # Python dependencies to run the app
+│   ├── app.py
+│   ├── sentiment_model.pkl
+│   └── requirements.txt
 │
-└── README.md # Project overview and instructions
+└── README.md
+
 
 
 ## Features
