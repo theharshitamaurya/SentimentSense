@@ -4,18 +4,19 @@ SentimentSense is a simple sentiment analysis project that classifies text as po
 
 ## Folder Structure
 
-SentimentSense/
-│
-├── model_training/
-│   ├── train_model.ipynb
-│   └── sentiment_model.pkl
-│
-├── app/
-│   ├── app.py
-│   ├── sentiment_model.pkl
-│   └── requirements.txt
-│
-└── README.md
+  SentimentSense/
+  │
+  ├──   model_training/
+  │   ├──   train_model.ipynb
+  │   └──   sentiment_model.pkl
+  │
+  ├── app/
+  │   ├──   app.py
+  │   ├──   sentiment_model.pkl
+  │   └──   requirements.txt
+  │
+  └──   README.md
+
 
 
 
@@ -50,7 +51,7 @@ streamlit run app.py
 
 ### 3. Use the App
 
-- Open the local URL displayed in your terminal (usually http://localhost:8501).
+- Open the local URL displayed in your terminal ([sentimentsenseanalysis](https://sentimentsenseanalysis.streamlit.app/)).
 - Type a sentence or phrase in the input box.
 - Click "Analyze Sentiment" to see if the sentiment is positive or negative.
 
